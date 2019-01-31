@@ -2,3 +2,48 @@ html,
 body {
   background: yellow;
 }
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+}
+
+.top-link {
+  color: #bb0;
+  background-color: #003837;
+}
+
+.top-link:hover {
+  color: #bb0;
+  background-color: #006563;
+}
+
+.top-link:active {
+  color: #bb0;
+  background-color: #002625;
+}
+
+.my-map {
+  overflow: hidden;
+  padding-bottom: 25.75%;
+  height: 0;
+}
+
+.my-map .iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
